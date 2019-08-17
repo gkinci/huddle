@@ -4,23 +4,23 @@ body {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 43px;
   font-family: 'Poppins', Arial;
   font-weight: 600;
   margin-bottom: 35px;
 }
 
 p {
-  font-size: 18px;
+  font-size: 19px;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 400, 700;
+  font-weight: 550;
 }
 
-.top {
+.topContainer {
   background-image: url("../images/bg-hero-desktop.svg");
   height: 625px;
-  width: %100;
   padding: 50px 50px 50px 50px;
+
 }
 
 .btn-try-it {
@@ -37,7 +37,7 @@ p {
   padding: 10px 25px 10px 24px;
   text-decoration: none;
   position: absolute;
-  right: 100px;
+  right: 170px;
   top: 55px;
 }
 
@@ -57,6 +57,7 @@ p {
 }
 
 .btn-get-started {
+  margin-top: 15px;
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
@@ -73,18 +74,18 @@ p {
   text-decoration: none;
 }
 
-.top-left-bottom {
+.topContainer-left-bottom {
   position: absolute;
-  top: 234px;
+  top: 230px;
 }
 .mockups {
   display: inline-block;
   position: absolute;
-  padding-left: 350px;
-  top : 150px;
+  padding-left: 370px;
+  top : 168px;
 }
 
 .mockups-img {
-  width: 89%;
-  height: 89%;
+  width: 80%;
+  height: 80%;
 }
